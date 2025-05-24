@@ -16,8 +16,6 @@ import {
 } from "@mui/material";
 import { fetchJobs, updateJob } from "../services/api";
 import PageHeader from "../components/common/PageHeader";
-import JobCard from "../components/jobs/JobCard";
-import AddJobModal from "../components/jobs/AddJobModal";
 
 // Constants matching backend
 const JOB_STATUS = {
